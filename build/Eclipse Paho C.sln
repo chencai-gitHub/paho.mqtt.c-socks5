@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1259
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common_obj", "src\common_obj.vcxproj", "{146F6800-7A1B-34E9-9DFA-E189258BEF93}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paho-mqtt3a", "src\paho-mqtt3a.vcxproj", "{4ABD54A1-821A-386E-A2B8-2A4E3219A449}"
+	ProjectSection(ProjectDependencies) = postProject
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93} = {146F6800-7A1B-34E9-9DFA-E189258BEF93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paho-mqtt3c", "src\paho-mqtt3c.vcxproj", "{939E5698-6F76-39A3-8286-D35CF499D3CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93} = {146F6800-7A1B-34E9-9DFA-E189258BEF93}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MQTTVersion", "src\MQTTVersion.vcxproj", "{DAED49D5-7B01-3274-B37A-5569CE729978}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Debug|Win32.ActiveCfg = Debug|Win32
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Debug|Win32.Build.0 = Debug|Win32
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Debug|x64.ActiveCfg = Debug|x64
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Debug|x64.Build.0 = Debug|x64
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Release|Win32.ActiveCfg = Release|Win32
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Release|Win32.Build.0 = Release|Win32
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Release|x64.ActiveCfg = Release|x64
+		{146F6800-7A1B-34E9-9DFA-E189258BEF93}.Release|x64.Build.0 = Release|x64
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Debug|Win32.Build.0 = Debug|Win32
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Debug|x64.ActiveCfg = Debug|x64
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Debug|x64.Build.0 = Debug|x64
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Release|Win32.ActiveCfg = Release|Win32
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Release|Win32.Build.0 = Release|Win32
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Release|x64.ActiveCfg = Release|x64
+		{4ABD54A1-821A-386E-A2B8-2A4E3219A449}.Release|x64.Build.0 = Release|x64
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Debug|Win32.Build.0 = Debug|Win32
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Debug|x64.ActiveCfg = Debug|x64
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Debug|x64.Build.0 = Debug|x64
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Release|Win32.ActiveCfg = Release|Win32
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Release|Win32.Build.0 = Release|Win32
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Release|x64.ActiveCfg = Release|x64
+		{939E5698-6F76-39A3-8286-D35CF499D3CB}.Release|x64.Build.0 = Release|x64
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Debug|Win32.Build.0 = Debug|Win32
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Debug|x64.ActiveCfg = Debug|x64
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Debug|x64.Build.0 = Debug|x64
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Release|Win32.ActiveCfg = Release|Win32
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Release|Win32.Build.0 = Release|Win32
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Release|x64.ActiveCfg = Release|x64
+		{DAED49D5-7B01-3274-B37A-5569CE729978}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B5FEE7D-3696-32B5-AF25-98E72DDD3F7C}
+	EndGlobalSection
+EndGlobal

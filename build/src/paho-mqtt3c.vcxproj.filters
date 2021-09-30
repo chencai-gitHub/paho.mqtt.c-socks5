@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\MQTTClient.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTTime.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTProtocolClient.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Clients.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\utf-8.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTPacket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTPacketOut.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Messages.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Tree.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Socket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Log.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTPersistence.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTProtocolOut.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTPersistenceDefault.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\SocketBuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\LinkedList.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTProperties.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTReasonCodes.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Base64.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\SHA1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\WebSocket.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\StackTrace.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\Heap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\LogTest.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\memory_pahomqtt.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTSocks5Net.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="common_obj.dir\$(Platform)\$(Configuration)\MQTTSocks5Proxy.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{1EB19B64-9B72-3D2E-931B-7E90FB831CC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4BAB2439-411B-366A-AD66-F074A643B009}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
